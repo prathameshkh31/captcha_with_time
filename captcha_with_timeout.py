@@ -36,9 +36,9 @@ def verify_captcha():
             return False
 while True:
     if verify_captcha():
-        print('Acess: Granted')
+        print('Access: Granted')
     else:
-        print('Acess: Denied')
+        print('Access: Denied')
     should_continue=input('Again captcha code for verification ? (y/n) \n').lower()
     if should_continue!='y':
         print('Jay shree krishna')
